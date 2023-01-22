@@ -39,6 +39,6 @@ function divideLogs(a,b) {
   return a - b;
 }
 
-function exponentLoga(a,b){
+function exponentLogs(a,b){
   return a * b;
 }
