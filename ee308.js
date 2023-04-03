@@ -1,4 +1,3 @@
-
 function normal(log) {
   if (log != Infinity) {
     if (log >= 1e21) {
@@ -45,4 +44,60 @@ function exponentLogs(a,b,bInLog) {
   } else {
     return a * (10**b);
   } 
+ }
+ 
+function isGreaterThan(a,b){
+	if (a > b){
+  	return true;
+  } else{
+  	return false;
+  }
+}
+
+function greaterThan(a,b){
+	if (a > b){
+  	return true;
+  } else{
+  	return false;
+  }
+}
+
+function lessThan(a,b){
+	if (a < b){
+  	return true;
+  } else{
+  	return false;
+  }
+}
+
+function greaterOrEqual(a,b){
+	if (a >= b){
+  	return true;
+  } else{
+  	return false;
+  }
+}
+
+function lessOrEqual(a,b){
+	if (a <= b){
+  	return true;
+  } else{
+  	return false;
+  }
+}
+
+function equalTo(a,b){
+	if (a == b){
+  	return true;
+  } else{
+  	return false;
+  }
+}
+
+function unequalTo(a,b){
+	if (a != b){
+  	return true;
+  } else{
+  	return false;
+  }
 }
