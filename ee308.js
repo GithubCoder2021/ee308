@@ -46,13 +46,6 @@ function exponentLogs(a,b,bInLog) {
   } 
  }
  
-function isGreaterThan(a,b){
-	if (a > b){
-  	return true;
-  } else{
-  	return false;
-  }
-}
 
 function greaterThan(a,b){
 	if (a > b){
